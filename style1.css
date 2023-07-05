@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    font-size: 1.5;
+}
+
+:root{
+    --link-text-color: #000
+}
+
+a{
+    text-decoration: none; 
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+.flex{
+    display: flex;
+}
+
+nav{
+    flex-direction: column;
+    height: 100vh;
+    width: 250px;
+    padding-left: 10px;
+    position: fixed;
+    left: 17%;
+    
+}
+.links{
+    width: 240px;
+    height: 450px;
+}
+
+.logo{
+    margin-top: 20px;
+    font-size: 18px;
+    padding-right: 85px;
+}
+
+.ck-surya{
+    margin-top: 20px;
+    gap: 20px;
+}
+.ck{
+    display: flex;
+    margin-top: 15px;
+    padding: 7px;
+}
+.btn:hover{
+    
+    background-color: #524f4f;;
+}
+.content{
+    height: 300vh;
+    position: absolute;
+    left: 33%;
+    right: 20%;
+    width: 960px;
+}
+.head{
+    font-size: 2rem;
+    justify-content: space-between;
+    height: 73px;
+}
+.icone img{
+    height: 37px;
+}
+.bg-img{
+    background-image: url(../img/jeans.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 612px;
+    object-fit: fill;
+} 
+.above{
+    flex-direction: column;
+    font-family:  "Montserrat", sans-serif;
+    padding: 24px 48px;
+    height: 300px;
+    width:  484.234px;
+    padding:24px 48px 24px 48px;
+
+    position: absolute;
+    top: 0px;
+    bottom: 313.281px;
+    right: 465.766px;
+    left: 0px;
+    display: block;
+    top: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+ .bg-img h1{
+    font-size: 3rem;
+    color: white;
+} 
+.bg-img h2{
+    font-family:  "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+}
+.bg-img a{
+    font-family:  "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    color: rgb(240, 232, 232);
+    background-color: black;
+    width: 151px;
+
+    height: 51px;
+}
+
+.bg-img p a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #999595; 
+    width: 7rem;
+
+}
+.above p a{
+    height: 80px;
+    width: 388px;
+    margin: 0px 15px;
+} 
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.card{
+    height: 256px;
+    width: 215px;
+}
+header{
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    font-family: "Montserralp",sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-decoration: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    word-spacing: 0px;
+    height: 38px;
+    width: 115.833px;
+    padding: 8px 16px 8px 16px;
+}
+.btn{
+    margin-top: 8px;
+}
+.Footer-content{
+    margin-top: 0px;
+    height: 18rem;
+    width: 59rem;
+    border: 5px solid;
+    border-color: black;
+    background-color: black;
+    color: aliceblue;
+    margin-right: 2.5rem;
+    padding-top: 2rem;
+}
+.sub{
+    margin-left: 1rem;
+    font-family: "Montserrat",sans-serif;
+    display: center;
+    font-size: 2rem;
+}
+.p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.kala{
+    height: 3rem;
+    border: 0.2px solid;
+    border-color: black;
+    background-color: aliceblue;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.int{
+    height: 3rem;
+    margin-top: 0.01rem;
+    border: none;
+    margin-right: 1rem;
+    width: 56.5rem;
+    padding-right: 3rem;
+    font-size: large;
+}
+.bot{
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(241, 37, 37);
+    border: none;
+}
+.bot:hover{
+    text-decoration: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #999595
+}
+.grey{
+
+    height: 30rem;
+    width: 59rem;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.con{
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    font-family: "Montserrat",sans-serif;
+    margin-top: 5rem;
+    color: #181717;
+    margin-left: 8rem;
+}
+.ques{
+    font-size: small;
+    margin-top: 0.5px;
+    width: 10rem;
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.info{
+    height: 2rem;
+    width: 19rem;
+  
+    border: 1px solid rgb(22, 21, 21);
+    font-family: sans-serif,"Montserrate";
+    margin-top: 18px;
+    padding-left: 2rem;
+    margin-left: 3px;
+   
+}
+.inf{
+    background-color: black;
+    color: white;  
+    height: 2.5rem;
+    width: 19.5rem; 
+    margin-top: 8px;
+    margin-right: 1px;
+}
+.fee{
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    font-family: "Montserrat",sans-serif;
+    color: #181717;
+    margin-right: 8rem;
+}
+.sit{
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+    font-family: sans-serif,"Montserrate";
+    font-weight: 100rem;
+    line-height: 36px;
+    font-size: 14px;
+    width: 10rem; 
+} 
+.acc{
+    margin-bottom: 1.5rem;
+    font-family: sans-serif,"Montserrate";
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.sii{
+    margin-bottom: 2rem;
+}
+.side1-flex{
+    width: 10rem; 
+    margin-top: 5rem;
+    margin-left: 4rem;
+    font-weight: 1;
+    font-size: 14px;
+    line-height: 31px;
+    font-family: sans-serif,"Montserrate";
+    cursor: pointer;
+    text-align: center;
+}
+.foot{
+    width: 59rem;
+    height: 5rem;
+    color: azure;
+    background-color: #181717;
+    line-height: 64px;
+    
+}
+
+.link{
+    height: 3rem;
+    width: 10rem;
+    margin-left: 24rem;
+}
+.footer-icon{
+    margin-bottom: 2rem;
+    height: 2rem;
+
+}
